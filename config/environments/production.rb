@@ -82,7 +82,7 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   #Precompile assests including all files with .css and .js extensions
-  config.assests.precompile += %w( *.css *.js )
+  config.assets.precompile += %w( *.css *.js )
 
 
 end
